@@ -1,3 +1,5 @@
-from hello import fizz 
-def test_fizz():
-    assert 3 == fizz(3)
+from hello import fizz
+
+
+def test_fizz_3():
+    assert "fizz" == fizz(3)
