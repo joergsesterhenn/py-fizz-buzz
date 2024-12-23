@@ -1,0 +1,12 @@
+{
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "ruff.format.preview": true,
+    "ruff.lineLength": 200,
+    "ruff.importStrategy": "fromEnvironment",
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
