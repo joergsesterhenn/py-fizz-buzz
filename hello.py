@@ -10,8 +10,10 @@ def main():
         print(i, ":", fizz(i))
 
 
-def fizz(i: int):
-    return i
+def fizz(i: int) -> str:
+    if i % 3 == 0:
+        return "fizz"
+    return str(i)
 
 
 if __name__ == "__main__":
