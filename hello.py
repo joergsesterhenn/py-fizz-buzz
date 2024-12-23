@@ -11,6 +11,8 @@ def main():
 
 
 def fizz(i: int) -> str:
+    if i % 5 == 0:
+        return "buzz"
     if i % 3 == 0:
         return "fizz"
     return str(i)
