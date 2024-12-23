@@ -11,11 +11,14 @@ def main():
 
 
 def fizz(i: int) -> str:
-    if i % 5 == 0:
-        return "buzz"
+    reply = ""
     if i % 3 == 0:
-        return "fizz"
-    return str(i)
+        reply = "fizz"
+    if i % 5 == 0:
+        reply += "buzz"
+    if reply == "":
+        reply = str(i)
+    return reply
 
 
 if __name__ == "__main__":

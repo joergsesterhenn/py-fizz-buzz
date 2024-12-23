@@ -15,3 +15,11 @@ def test_fizz_3():
 
 def test_fizz_5():
     assert "buzz" == fizz(5)
+
+
+def test_fizz_6():
+    assert "fizz" == fizz(6)
+
+
+def test_fizz_15():
+    assert "fizzbuzz" == fizz(15)
